@@ -76,5 +76,5 @@ print(f'''\033[30;40m
 O jogador venceu {userScore} partida(s)
 O computador venceu {pcScore} partida(s)
 houveram {empate} empate(s)
+Obrigrado por jogar :D
 \033[m''')
-print('Obrigrado por jogar :D')
