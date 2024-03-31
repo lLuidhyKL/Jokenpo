@@ -58,4 +58,3 @@ if computador == 2:
 print(f'''
 O jogador jogou {opções[jogador]}
 O computador jogou {opções[computador]}''')
-print('Obrigado por jogar :D')
