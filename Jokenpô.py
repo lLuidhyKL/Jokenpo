@@ -23,8 +23,7 @@ PARA JOGAR ESCOLHA
             jogador = int(input('Escolha uma opção valida: '))
 
 # BRINCANDO COM SLEEP
-            
-    print('\033[31;40m=-=-=-=-Resultado-=-=-=\033[m')
+
     sleep(1)
     print('\033[30;40mJO\033[m')
     sleep(1)
@@ -32,6 +31,7 @@ PARA JOGAR ESCOLHA
     sleep(1)
     print('\033[30;40mPÔ\033[m')
     sleep(1)
+    print('\033[31;40m=-=-=-=-Resultado-=-=-=\033[m')
 
 # CENARIOS POSSIVEIS
 
@@ -73,8 +73,8 @@ O computador jogou {opções[computador]}''')
 # ENCERRANDO O JOGO
     
 print(f'''\033[30;40m
-O jogador venceu {userScore} partidas
-O computador venceu {pcScore} partidas
-houveram {empate} empates
+O jogador venceu {userScore} partida(s)
+O computador venceu {pcScore} partida(s)
+houveram {empate} empate(s)
 \033[m''')
 print('Obrigrado por jogar')
